@@ -15,6 +15,11 @@ import List from "./List.jsx";
 
 // ------------------------------------------
 
+import EventButton from "./EvBtn.jsx";
+import ProfilePicture from "./ProfilePicture.jsx";
+
+// ------------------------------------------
+
 function App() {
   const fruits = [
     { id: 1, name: "Orange", calories: 50 },
@@ -67,6 +72,9 @@ function App() {
         <List items={vegetables} category="Vegetables" />
       )}
       {/* jei listas butu tuscias, jo nerenderintu (short circuiting) */}
+
+      <EventButton />
+      <ProfilePicture />
     </>
   );
 }
