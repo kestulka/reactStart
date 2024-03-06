@@ -85,3 +85,26 @@ button:focus-visible {
   border-radius: 5px;
   margin: 0;
 }
+
+/* list jsx */
+
+.list-category {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: lightseagreen;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: lightgray;
+}
+.list-items li {
+  font-size: 2em;
+  color: #1a1a1a;
+  text-align: center;
+  margin: 0;
+}
+.list-items li:hover {
+  color: gray;
+  cursor: pointer;
+}
