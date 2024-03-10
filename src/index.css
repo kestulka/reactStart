@@ -108,3 +108,30 @@ button:focus-visible {
   color: gray;
   cursor: pointer;
 }
+
+/* Counter */
+
+.counter-container,
+.counter-button {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.count-display {
+  font-size: 8em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: #213547;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.counter-button:hover {
+  background-color: #535bf2;
+}

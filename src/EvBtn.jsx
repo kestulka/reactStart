@@ -1,19 +1,33 @@
-function EventButton() {
-  const handleClick = (event) => (event.target.textContent = "poof");
+// function EventButton() {
+//   const handleClick = (event) => (event.target.textContent = "poof");
 
-  return <button onClick={(event) => handleClick(event)}>Click me</button>;
+//   return <button onClick={(event) => handleClick(event)}>Click me</button>;
 
-  // let count = 0;
-  // const handleClick = (name) => {
-  //   if (count < 3) {
-  //     count++;
-  //     console.log(`${name} you clicked me ${count} times`);
-  //   } else {
-  //     console.log(`${name} stop clicking me`);
-  //   }
-  // };
+// let count = 0;
+// const handleClick = (name) => {
+//   if (count < 3) {
+//     count++;
+//     console.log(`${name} you clicked me ${count} times`);
+//   } else {
+//     console.log(`${name} stop clicking me`);
+//   }
+// };
 
-  // return <button onClick={() => handleClick("sigmis")}>Click me</button>;
-}
+// return <button onClick={() => handleClick("sigmis")}>Click me</button>;
+// }
 
-export default EventButton;
+// export default EventButton;
+
+// PAMOKA
+
+// changeBg = () => {
+//   this.setState((prev) => ({
+//     backgroundColor: prev.backgroundColor === "purple" ? "green" ? "yellow",
+//   }))
+// };
+
+// render() {
+//   return(
+//     <div style ={{ color: this.PaymentResponse.}}
+//   )
+// }
